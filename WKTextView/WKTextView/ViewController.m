@@ -26,7 +26,7 @@
     ///设置文本输入框的占位字符
     textView.myPlaceholder = @"我是占位字符串...";
     textView.font = [UIFont systemFontOfSize:14];
-    //限制的输入最多字数
+    //限制的输入最多字数 字符
     textView.maxNum = 100;
     [self.view addSubview:textView];
     
